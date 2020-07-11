@@ -13,6 +13,8 @@
 		CA6C574824BA1E7300EB25BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6C574724BA1E7300EB25BA /* Assets.xcassets */; };
 		CA6C574B24BA1E7300EB25BA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6C574A24BA1E7300EB25BA /* Preview Assets.xcassets */; };
 		CA6C574E24BA1E7300EB25BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6C574C24BA1E7300EB25BA /* LaunchScreen.storyboard */; };
+		CA6C575624BA2A1600EB25BA /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C575524BA2A1600EB25BA /* CircleImage.swift */; };
+		CA6C575824BA2B3000EB25BA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA6C575724BA2B3000EB25BA /* MapView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		CA6C574A24BA1E7300EB25BA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		CA6C574D24BA1E7300EB25BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA6C574F24BA1E7300EB25BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6C575524BA2A1600EB25BA /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		CA6C575724BA2B3000EB25BA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		CA6C574024BA1E6D00EB25BA /* Creating and Combining Views */ = {
 			isa = PBXGroup;
 			children = (
+				CA6C575724BA2B3000EB25BA /* MapView.swift */,
 				CA6C574124BA1E6D00EB25BA /* AppDelegate.swift */,
 				CA6C574324BA1E6D00EB25BA /* SceneDelegate.swift */,
 				CA6C574524BA1E6D00EB25BA /* ContentView.swift */,
@@ -63,6 +68,7 @@
 				CA6C574C24BA1E7300EB25BA /* LaunchScreen.storyboard */,
 				CA6C574F24BA1E7300EB25BA /* Info.plist */,
 				CA6C574924BA1E7300EB25BA /* Preview Content */,
+				CA6C575524BA2A1600EB25BA /* CircleImage.swift */,
 			);
 			path = "Creating and Combining Views";
 			sourceTree = "<group>";
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA6C574224BA1E6D00EB25BA /* AppDelegate.swift in Sources */,
+				CA6C575624BA2A1600EB25BA /* CircleImage.swift in Sources */,
+				CA6C575824BA2B3000EB25BA /* MapView.swift in Sources */,
 				CA6C574424BA1E6D00EB25BA /* SceneDelegate.swift in Sources */,
 				CA6C574624BA1E6D00EB25BA /* ContentView.swift in Sources */,
 			);
